@@ -1,12 +1,9 @@
 ---
-title: "Deploy a WordPress site on a LAMP stack in the Cloud"
+title: Deploy a WordPress site on a LAMP stack in the Cloud
 date: 2023-10-21
 categories: [cloud]
 tags: [cloud]
 ---
-
-# Deploy a WordPress site on a LAMP stack in the Cloud
-
 
 WordPress is one of the most popular content management systems and today we will deploy this famous opens source 
 program on our very own cloud instance
