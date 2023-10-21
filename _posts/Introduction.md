@@ -1,8 +1,8 @@
 ---  
 title: "Introduction"
-date : 2023-10-21 
-categories: About  
-tags: personal 
+date: 2023-10-21 
+categories: [About]  
+tags: [personal] 
 ---
 
 # More Aout me 
