@@ -18,9 +18,9 @@ I will be making use of the xneelo Cloud instance running Ubuntu Linux
 Step 2 
 Update the OS repositories
 
-<code>sudo apt update<code> 
+# update repos    sudo apt update 
 
-YourCopyableTextblock    sudo apt upgrade
+sudo apt upgrade
 
 Step 3 
 Install Apache 
