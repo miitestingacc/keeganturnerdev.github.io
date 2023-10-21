@@ -20,7 +20,6 @@ Update the OS repositories
 
 ````
 sudo apt update
-
 ````
 
 
