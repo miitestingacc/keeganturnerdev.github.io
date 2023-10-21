@@ -5,7 +5,7 @@ categories: [cloud]
 tags: [cloud] [wordpress] [LAMP]
 ---
 
-#Deploy a WordPress site on a LAMP stack in the Cloud
+# Deploy a WordPress site on a LAMP stack in the Cloud
 
 WordPress is one of the most popular content management systems and today we will deploy this famous opens source 
 program on our very own cloud instance
@@ -18,11 +18,15 @@ Step 1
 Update repositories
 
 ````
-sudo apt update -y
+```
+        sudo apt update -y
+```
 ````
 
 ````
-sudo apt upgrade -y
+```
+        sudo apt upgrade -y
+```
 ````
 
 
@@ -31,5 +35,7 @@ Step 2
 Install Apache web server 
 
 ````
-sudo apt install apache2
+```
+        sudo apt install apache2
+```
 ````
