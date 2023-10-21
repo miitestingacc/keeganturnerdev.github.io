@@ -11,23 +11,22 @@ tags: [cloud] [wordpress] [LAMP]
 WordPress is one of the most popular content management systems and today we will deploy this famous opens source 
 program on our very own cloud instance
 
+Create your virtual cloud instance. You can use any platform such as AWS, Azure, or Google Cloud. 
+I will be making use of the xneelo Cloud instance running Ubuntu Linux
+
 Step 1
-
-Spin up your virtual cloud instance. You can use any platform such as AWS, Azure or Google Cloud. 
-I will be making use of the xneelo Cloud instance running Ubuntu Linux 
-
-Update the OS repositories
+Update repositories
 
 ````
 sudo apt update -y
 ````
+
 ````
 sudo apt upgrade -y
 ````
 
 Step 2
-
-Install Apache 
+Install Apache web server 
 
 ````
 sudo apt install apache2
