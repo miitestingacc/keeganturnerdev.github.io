@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Deploy a WordPress site on a LAMP stack in the Cloud"
 date: 2023-10-21
 categories: [cloud]
