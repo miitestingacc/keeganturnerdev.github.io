@@ -18,15 +18,11 @@ Step 1
 Update repositories
 
 ````
-```
         sudo apt update -y
-```
 ````
 
 ````
-```
         sudo apt upgrade -y
-```
 ````
 
 
@@ -35,7 +31,5 @@ Step 2
 Install Apache web server 
 
 ````
-```
         sudo apt install apache2
-```
 ````
