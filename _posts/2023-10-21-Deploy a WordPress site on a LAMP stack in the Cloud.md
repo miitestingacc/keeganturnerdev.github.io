@@ -19,9 +19,8 @@ Step 2
 Update the OS repositories
 
 ````
-```
-sudo apt update 
-```
+sudo apt update
+
 ````
 
 
