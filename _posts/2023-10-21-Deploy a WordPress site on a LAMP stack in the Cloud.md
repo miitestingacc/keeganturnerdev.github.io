@@ -18,7 +18,12 @@ I will be making use of the xneelo Cloud instance running Ubuntu Linux
 Step 2 
 Update the OS repositories
 
-# update repos    sudo apt update 
+````
+```
+sudo apt update 
+```
+````
+
 
 sudo apt upgrade
 
