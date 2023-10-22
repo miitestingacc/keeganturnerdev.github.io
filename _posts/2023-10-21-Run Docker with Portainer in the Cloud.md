@@ -11,6 +11,8 @@ applications and their dependencies into lightweight, isolated containers.
 These containers can run consistently across different environments, 
 making it easier to deploy and manage applications.*
 
+![Portainer](/assets/portainer.png)
+
 For this installation, I will be using Ubuntu as my distribution of choice.
 The below commands will work on any Debian based distribution.
 
