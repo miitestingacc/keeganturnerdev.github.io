@@ -56,7 +56,7 @@ Step 3
 Install Portainer 
 We will use Docker to deploy a container with the Portainer container management tool
 
-Run the following command in terminal: 
+Run the following command in the terminal: 
 
 ```
 sudo docker volume create portainer_data
