@@ -3,7 +3,7 @@ title: Run Docker with Portainer in the Cloud
 date: 2023-10-21
 categories: [cloud]
 tags: [cloud]
-image: /assets/dock.png
+image: /assets/docky.png
 ---
 
 
