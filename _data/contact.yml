@@ -3,12 +3,15 @@
 - type: github
   icon: "fab fa-github"
 
-- type: twitter
-  icon: "fa-brands fa-x-twitter"
+- type: instagram
+  icon: "fa-brands fa-x-instagram"
 
 - type: email
   icon: "fas fa-envelope"
   noblank: true # open link in current tab
+
+- type: mastadon
+  icon: "fab fa-mastadon" 
 
 #- type: rss
 #  icon: "fas fa-rss"
@@ -16,7 +19,7 @@
 # Uncomment and complete the url below to enable more contact options
 #
 # - type: mastodon
-#   icon: 'fab fa-mastodon'   # icons powered by <https://fontawesome.com/>
+#  icon: 'fab fa-mastodon'   # icons powered by <https://fontawesome.com/>
 #   url:  ''                  # Fill with your Mastodon account page, rel="me" will be applied for verification
 
 # - type: linkedin
