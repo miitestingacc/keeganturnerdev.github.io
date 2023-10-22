@@ -50,16 +50,29 @@ sudo systemctl enable apache2
 
 Step 3 
 
-Install MySQL database server 
+Install MariaDB database server 
 
 ```
-sudo apt install mysql-server
+sudo apt install mariadb-server
 ```
 
 Secure the database (Follow the instructions after running the command)
 
 ```
 sudo mysql_secure_installation
+```
+
+Copy the following code into a file 
+
+```
+sudo nano adduser.sh
+```
+Paste the code in the file and save the file by pressing *Ctrl + x*, *Y* & *Enter*
+
+Run the script and setup your database credentials 
+
+```
+sudo bash adduser.sh
 ```
 
 Step 4
@@ -70,7 +83,13 @@ Install PHP
 sudo apt install php libapache2-mod-php php-mysql
 ```
 
-Step 5 
+Step 5
+
+Navigate to the *html* directory
+
+```
+cd /var/www/html
+```
 
 Download and install WordPress
 
