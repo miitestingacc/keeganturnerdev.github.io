@@ -3,10 +3,9 @@ title: Deploy a WordPress site on a LAMP stack in the Cloud
 date: 2023-10-21
 categories: [cloud]
 tags: [cloud]
-image: /assets/wp.png
+image: /assets/wordpress.png
 ---
 
-![WordPress](/assets/wordpress.png)
 
 
 *WordPress is one of the most popular content management systems and today we will deploy this famous open-source 
