@@ -1,6 +1,5 @@
 ---
-title: Run Docker with Portainer in the Cloud
-<center><img src="https://miro.medium.com/v2/resize:fit:1400/0*XCQKAZB-iIQdqc47"></center>
+title: Run Docker with Portainer in the Cloud <center><img src="https://miro.medium.com/v2/resize:fit:1400/0*XCQKAZB-iIQdqc47"></center>
 date: 2023-10-21
 categories: [cloud]
 tags: [cloud]
