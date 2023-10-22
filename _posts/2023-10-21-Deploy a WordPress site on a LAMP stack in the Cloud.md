@@ -8,11 +8,16 @@ tags: [cloud]
 ![WordPress](/assets/wordpress.png)
 
 
-*WordPress is one of the most popular content management systems and today we will deploy this famous opens source 
+*WordPress is one of the most popular content management systems and today we will deploy this famous open-source 
 program on our very own cloud instance*
 
-Create your virtual cloud instance. You can use any platform such as AWS, Azure, or Google Cloud. 
-I will be making use of the xneelo Cloud instance running Ubuntu Linux
+First create your virtual cloud instance. I will be making use of Ubuntu on xneelo.
+
+Create an instance: How to guides
+
+[xneelo Cloud](https://xneelo.co.za/help-centre/cloud/create-an-instance/)
+[AWS EC2](https://docs.aws.amazon.com/efs/latest/ug/gs-step-one-create-ec2-resources.html)
+[Azure VM](https://cloud.google.com/compute/docs/instances/create-start-instance)
 
 Step 1
 
