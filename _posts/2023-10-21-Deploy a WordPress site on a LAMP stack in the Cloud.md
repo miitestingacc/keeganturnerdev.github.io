@@ -70,6 +70,62 @@ Install PHP
 sudo apt install php libapache2-mod-php php-mysql
 ```
 
+Step 5 
 
+Download and install WordPress
+
+```
+sudo wget https://wordpress.org/latest.tar.gz
+```
+
+Unpack the Tar file 
+
+```
+sudo tar -xzvf latest.tar.gz
+```
+
+Move the WordPress files
+
+```
+sudo mv wordpress/* .
+```
+
+Remove the empty directory
+
+```
+sudo rmdir wordpress
+```
+
+Set the permissions 
+
+```
+sudo chown -R www-data:www-data /var/www/html/
+```
+
+Copy the WP-Config file
+
+```
+cp wp-config-sample.php wp-config.php
+```
+
+Configure the wp-config file with the MySQL database credentials 
+
+```
+sudo nano wp-config.php
+```
+Update the lines as indicated below:
+
+```
+define('DB_NAME', 'yourdbname');
+define('DB_USER', 'yourdbuser');
+define('DB_PASSWORD', 'yourdbpassword');
+```
+
+*Complete the installation*
+
+Open your web browser of choice and navigate to your instance IP address. 
+The WordPress installation wizard should appear.
+
+You can follow the on-screen instructions to complete the installation
 
 
