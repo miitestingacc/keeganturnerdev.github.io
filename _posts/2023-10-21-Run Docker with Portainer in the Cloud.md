@@ -3,10 +3,9 @@ title: Run Docker with Portainer in the Cloud
 date: 2023-10-21
 categories: [cloud]
 tags: [cloud]
-image: /assets/docker2.png
+image: /assets/dock.png
 ---
 
-![Docker](/assets/docker.png)
 
 *Docker is a containerization platform that allows you to package 
 applications and their dependencies into lightweight, isolated containers. 
