@@ -41,4 +41,35 @@ Install Apache web server
 sudo apt install apache2
 ```
 
+Start and enable Apache
+
+```
+sudo systemctl start apache2
+sudo systemctl enable apache2
+```
+
+Step 3 
+
+Install MySQL database server 
+
+```
+sudo apt install mysql-server
+```
+
+Secure the database (Follow the instructions after running the command)
+
+```
+sudo mysql_secure_installation
+```
+
+Step 4
+
+Install PHP
+
+```
+sudo apt install php libapache2-mod-php php-mysql
+```
+
+
+
 
