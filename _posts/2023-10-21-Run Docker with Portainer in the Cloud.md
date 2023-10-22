@@ -1,6 +1,5 @@
 ---
 title: Run Docker with Portainer in the Cloud
-image: ![Docker](/assets/docker.png)
 date: 2023-10-21
 categories: [cloud]
 tags: [cloud]
