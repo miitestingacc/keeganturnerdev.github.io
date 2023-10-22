@@ -15,7 +15,5 @@ Step 1
 Access your cloud instance of choice and update the repositories 
 
 
-~~~~ 
-sudo apt update
-~~~~
+~~~~  sudo apt update  ~~~~
 
