@@ -11,10 +11,16 @@ applications and their dependencies into lightweight, isolated containers.
 These containers can run consistently across different environments, 
 making it easier to deploy and manage applications.*
 
+
 ![Portainer](/assets/portainer.png)
 
+*Portainer is an open-source container management platform that simplifies the 
+deployment, monitoring, and management of Docker containers.
+It provides a graphical interface to streamline container orchestration tasks, 
+making it accessible for both beginners and experienced developers.*
+
 For this installation, I will be using Ubuntu as my distribution of choice.
-The below commands will work on any Debian based distribution.
+The below commands will work on any Debian-based distribution.
 
 Step 1
 
