@@ -1,5 +1,5 @@
 ---
-title: Run Docker with Portainer in the Cloud
+title: ![Run Docker with Portainer in the Cloud](https://1000logos.net/wp-content/uploads/2021/11/Docker-Logo.jpg)
 date: 2023-10-21
 categories: [cloud]
 tags: [cloud]
