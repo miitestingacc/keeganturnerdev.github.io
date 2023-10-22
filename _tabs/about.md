@@ -6,6 +6,8 @@ order: 4
 
 <!-- Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.-->
 <!-- {: .prompt-tip } --> 
+![keegan](
+
 Hello 👋
 
 My name is Keegan Turner. 
@@ -16,4 +18,4 @@ I have an interest in learning cloud computing and programming.
 For fun, I like to spin up virtual machines and build or break whatever I can. 
 My first project will be to document and share my learning journey to hopefully inspire others 😃
 
-Cheers 🍻
+Cheers 😃💻
