@@ -22,6 +22,7 @@ making it accessible for both beginners and experienced developers.*
 For this installation, I will be using Ubuntu as my distribution of choice.
 The below commands will work on any Debian-based distribution.
 
+
 Step 1
 
 Access your cloud instance via SSH and update the repositories.
