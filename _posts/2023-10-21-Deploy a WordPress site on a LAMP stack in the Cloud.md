@@ -11,7 +11,7 @@ tags: [cloud]
 *WordPress is one of the most popular content management systems and today we will deploy this famous open-source 
 program on our very own cloud instance*
 
-First create your virtual cloud instance. I will be making use of Ubuntu on xneelo.
+First, create your virtual cloud instance. I will be making use of Ubuntu on xneelo.
 
 Create an instance: How to guides
 
@@ -40,3 +40,5 @@ Install Apache web server
 ```
 sudo apt install apache2
 ```
+
+
