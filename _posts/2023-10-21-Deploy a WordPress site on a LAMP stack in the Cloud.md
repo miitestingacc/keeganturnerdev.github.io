@@ -141,10 +141,14 @@ Move the WordPress files
 sudo mv wordpress/* .
 ```
 
-Remove the empty directory
+Remove the empty directory & tar.gz file
 
 ```
 sudo rmdir wordpress
+```
+
+```
+sudo rm latest.tar.gz
 ```
 
 Set the permissions 
