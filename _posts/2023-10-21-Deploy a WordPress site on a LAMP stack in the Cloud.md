@@ -15,6 +15,8 @@ First create your virtual cloud instance. I will be making use of Ubuntu on xnee
 
 Create an instance: How to guides
 
+<a href="https://xneelo.co.za/help-centre/cloud/create-an-instance" target="_blank">xneelo cloud </a>
+
 [xneelo Cloud](https://xneelo.co.za/help-centre/cloud/create-an-instance/)
 [AWS EC2](https://docs.aws.amazon.com/efs/latest/ug/gs-step-one-create-ec2-resources.html)
 [Azure VM](https://cloud.google.com/compute/docs/instances/create-start-instance)
