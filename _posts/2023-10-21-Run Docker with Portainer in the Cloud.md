@@ -13,8 +13,8 @@ making it easier to deploy and manage applications.
 Step 1
 Access your cloud instance of choice and update the repositories 
 
-```
-        sudo apt update -y
+```html
+                      sudo apt update -y
 ```
 
 ```
