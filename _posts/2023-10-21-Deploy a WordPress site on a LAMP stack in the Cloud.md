@@ -156,7 +156,7 @@ sudo chown -R www-data:www-data /var/www/html/
 Copy the WP-Config file
 
 ```
-cp wp-config-sample.php wp-config.php
+sudo cp wp-config-sample.php wp-config.php
 ```
 
 Configure the wp-config file with the MySQL database credentials 
@@ -172,6 +172,18 @@ define('DB_USER', 'yourdbuser');
 define('DB_PASSWORD', 'yourdbpassword');
 ```
 
+Remove the default *index.html* page
+
+```
+sudo rm index.html
+```
+Create the *.htaccess* file 
+
+```
+sudo touch .htaccess
+```
+
+
 *Complete the installation*
 
 Open your web browser of choice and navigate to your instance IP address. 
@@ -179,4 +191,6 @@ The WordPress installation wizard should appear.
 
 You can follow the on-screen instructions to complete the installation
 
-
+Your WordPress website will be accessible on your instance server IP address. 
+You can connect a custom domain name to the website by pointing your 
+DNS A '@' & 'www' records to the instance server IP address
