@@ -3,7 +3,7 @@ title: Build your own storage server with NextCloud
 date: 2023-10-21
 categories: [cloud]
 tags: [cloud]
-image: /assets/nc.png
+image: /assets/next.png
 ---
 
 ![nextcloud](/assets/next.png)
