@@ -137,10 +137,8 @@ sudo chown -R www-data:www-data /var/www/html/
 ```
 
 *Open a web browser and navigate to your server's IP address
-
 Follow the on-screen instructions to complete the Nextcloud installation.
-
-Create an admin account and specify the MySQL database details you set in step 3.*
+Create an admin account and specify the MySQL database details you set in step 3.* 
 
 
 
