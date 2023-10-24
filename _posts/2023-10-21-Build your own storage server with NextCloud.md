@@ -106,6 +106,12 @@ Install PHP
 sudo apt install php libapache2-mod-php php-mysql
 ```
 
+Install PHP Modules 
+
+```
+sudo apt install php-zip php-dom php-xmlwriter php-xmlreader php-mbstring php-gd php-simplexml php-curl
+```
+
 Step 5
 
 Download Nextcloud
@@ -121,7 +127,7 @@ tar -xvjf latest.tar.bz2
 ```
 
 ```
-sudo copy -r nextcloud/* /var/www/html/
+sudo cp -r nextcloud/* /var/www/html/
 ```
 
 Set the correct permissions 
