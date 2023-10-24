@@ -92,7 +92,7 @@ EOF
 echo "Database, username, and password created successfully."
 ```
 
-Run the script and setup your database credentials 
+Run the script and set your database credentials 
 
 ```
 sudo bash adduser.sh
@@ -113,4 +113,28 @@ Download Nextcloud
 ```
 wget https://download.nextcloud.com/server/releases/latest.tar.bz2
 ```
+
+Extract the downloaded file and copy the file contents to the html directory
+
+```
+tar -xvjf latest.tar.bz2
+```
+
+```
+sudo copy -r nextcloud/* /var/www/html/
+```
+
+Set the correct permissions 
+
+```
+sudo chown -R www-data:www-data /var/www/html/
+```
+
+Open a web browser and navigate to your server's IP address
+Follow the on-screen instructions to complete the Nextcloud installation.
+Create an admin account and specify the MySQL database details you set in step 3.
+
+
+
+
 
