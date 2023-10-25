@@ -30,7 +30,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          node version: '20'
+          #node version: '20'
           fetch-depth: 0
           # submodules: true
           # If using the 'assets' git submodule from Chirpy Starter, uncomment above
@@ -71,6 +71,6 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        #uses: actions/deploy-pages@v2
-        #d: deployment
-        uses: actions/deploy-pages@v3
+        uses: actions/deploy-pages@v2
+        #id: deployment
+    
