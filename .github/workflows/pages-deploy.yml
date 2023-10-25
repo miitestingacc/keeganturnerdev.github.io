@@ -30,6 +30,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
+        node version: '20'
           fetch-depth: 0
           # submodules: true
           # If using the 'assets' git submodule from Chirpy Starter, uncomment above
@@ -57,7 +58,7 @@ jobs:
             \-\-ignore-urls "/^http:\/\/127.0.0.1/,/^http:\/\/0.0.0.0/,/^http:\/\/localhost/"
 
       - name: Upload site artifact
-        uses: actions/upload-pages-artifact@v2
+        uses: actions/upload-pages-artifact@v1
         with:
           path: "_site${{ steps.pages.outputs.base_path }}"
 
@@ -69,5 +70,7 @@ jobs:
     needs: build
     steps:
       - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v2
         id: deployment
         uses: actions/deploy-pages@v3
