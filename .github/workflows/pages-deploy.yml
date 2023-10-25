@@ -37,10 +37,10 @@ jobs:
 
       - name: Setup Pages
         id: pages
-        uses: node20
+        uses: actions/node20
 
       - name: Setup Ruby
-        uses: node20
+        uses: actions/node20
         with:
           ruby-version: 3
           bundler-cache: true
@@ -57,7 +57,7 @@ jobs:
             \-\-ignore-urls "/^http:\/\/127.0.0.1/,/^http:\/\/0.0.0.0/,/^http:\/\/localhost/"
 
       - name: Upload site artifact
-        uses: node20
+        uses: actions/node20
         with:
           path: "_site${{ steps.pages.outputs.base_path }}"
 
