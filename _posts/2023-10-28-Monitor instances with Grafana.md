@@ -14,7 +14,7 @@ tool commonly used for tracking and analyzing metrics and time-series data.*
 display data from various sources, such as databases and cloud instances* 
 
 
-First head over to <a href="https://grafana.com/" target="_blank">Grafana <a/> and create a free account
+First head over to <a href="https://grafana.com/" target="_blank">Grafana </a> and create a free account
 
 Once you have created an account, navigate to your home menu, select **connections**, and **add new connection**.
 
