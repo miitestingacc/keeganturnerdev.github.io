@@ -21,6 +21,7 @@ Once you have created an account, navigate to your home menu, select **connectio
 Select the **Linux server** integration
 
 Run the Grafana agent by selecting your instance operating system and architecture
+
 Create a name for the API token that connects to your instance and then **Create token**
 
 
