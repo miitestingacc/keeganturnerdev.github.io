@@ -51,6 +51,8 @@ Verify that Docker is running:
 sudo systemctl status docker
 ```
 
+![dockerstatus](/assets/dockerstatus.jpg)
+
 Step 3 
 
 Install Portainer 
@@ -66,10 +68,30 @@ sudo docker run -d -p 8000:8000 -p 9000:9000 --name=portainer --restart=always -
 This command creates a Docker volume named "portainer_data" and then starts the Portainer container, exposing ports 8000 and 9000 for web access. 
 The container will be automatically restarted if it crashes or when the system reboots.
 
-You will have to open port 9000 on the instance firewall.
+Check the status of the docker container created
+
+```
+sudo docker ps
+```
+
+![dockerps](/assets/dockerps.jpg)
+
+Remember to open port 9000 on the instance firewall.
 
 Once the container is running, you can access the Portainer web interface by opening a web browser and navigating to:
-http://yourserveripaddress:9000
+http://yourserveripaddress:9000 
+
+Create your Portainer account 
+
+![createaccount](/assets/createaccount.jpg)
+
+Welcome to the Portainer dashboard 
+
+![portainerdash](/assets/portainerdash.jpg)
+
+
 
 *You have successfully installed Docker and Portainer on Ubuntu. 
 You can now use Portainer to manage your Docker environment.*
+
+*(We will explore deploying docker images in another article)*
