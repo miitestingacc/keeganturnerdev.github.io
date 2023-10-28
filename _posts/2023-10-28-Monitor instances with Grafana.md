@@ -40,7 +40,7 @@ sudo apt upgrade -y
 Copy the second command and paste it into your Linux server terminal
 
 Test the Agent connection
-Proceed to install integration
+Proceed to install the integration
 
 
 Step 2
@@ -48,7 +48,7 @@ Step 2
 add the instance hostname to the config file 
 
 
-copy the config file and update the following file on your instance 
+copy and update the config file  
 
 ```
 sudo nano /etc/grafana-agent.yaml
