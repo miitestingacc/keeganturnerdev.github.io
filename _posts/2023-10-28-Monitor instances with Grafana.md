@@ -29,7 +29,7 @@ Create a name for the API token that connects to your instance and then **Create
 
 Copy the API token and save it in a document on your computer 
 
-Update the repositories on the instance 
+Update the repositories on your cloud server instance 
 
 ```
 sudo apt update -y
@@ -39,7 +39,8 @@ sudo apt update -y
 sudo apt upgrade -y
 ```
 
-Copy the second command and paste it into your Linux server terminal
+Copy the second command from the Grafana agent configuration tool 
+and paste it into your Linux server terminal
 
 ![copycommand](/assets/copycommand.jpg)
 
