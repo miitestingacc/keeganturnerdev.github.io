@@ -35,7 +35,7 @@ sudo apt upgrade -y
 
 Step 2
 
-Install Apache web server 
+Install the <a href="https://httpd.apache.org/" target="_blank">Apache web server </a>
 
 ```
 sudo apt install apache2
@@ -50,7 +50,7 @@ sudo systemctl enable apache2
 
 Step 3 
 
-Install MariaDB database server 
+Install <a href="https://mariadb.org/" target="_blank">MariaDB database server </a>
 
 ```
 sudo apt install mariadb-server
@@ -62,7 +62,9 @@ Secure the database (Follow the instructions after running the command)
 sudo mysql_secure_installation
 ```
 
-Copy the following code into a file 
+Copy the following code into a bash file. 
+
+This script will allow you to create a database, username, and password without the need to manually configure this.
 
 Create the file
 
@@ -101,7 +103,7 @@ EOF
 echo "Database, username, and password created successfully."
 ```
 
-Run the script and setup your database credentials 
+Run the script and set your database credentials 
 
 ```
 sudo bash adduser.sh
@@ -109,7 +111,7 @@ sudo bash adduser.sh
 
 Step 4
 
-Install PHP
+Install <a href="https://www.php.net/" target="_blank"> PHP <a/> 
 
 ```
 sudo apt install php libapache2-mod-php php-mysql
@@ -123,7 +125,7 @@ Navigate to the *html* directory
 cd /var/www/html
 ```
 
-Download and install WordPress
+Download and install <a href="https://en-za.wordpress.org/download/" target="_blank"> WordPress <a/>
 
 ```
 sudo wget https://wordpress.org/latest.tar.gz
@@ -198,3 +200,18 @@ You can follow the on-screen instructions to complete the installation
 Your WordPress website will be accessible on your instance server IP address. 
 You can connect a custom domain name to the website by pointing your 
 DNS A '@' & 'www' records to the instance server IP address
+
+You need to update the 000-default.conf file with your domain name. 
+This file controls the default virtual host settings for your web server. To update the file, type the following command:
+
+
+```
+sudo nano /etc/apache2/sites-available/000-default.conf
+```
+
+This will open the file in the nano text editor. 
+Look for the **ServerName** directive and replace the default value with your domain name.
+Save the file (*Ctrl + x*, *Y* & *Enter*) and exit the editor.
+
+Thats it! You have installed WordPress and can continue to develop your website!
+
