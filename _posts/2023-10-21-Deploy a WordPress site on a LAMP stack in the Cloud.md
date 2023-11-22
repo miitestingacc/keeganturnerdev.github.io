@@ -111,7 +111,7 @@ sudo bash adduser.sh
 
 Step 4
 
-Install <a href="https://www.php.net/" target="_blank"> PHP <a/> 
+Install PHP
 
 ```
 sudo apt install php libapache2-mod-php php-mysql
@@ -125,7 +125,7 @@ Navigate to the *html* directory
 cd /var/www/html
 ```
 
-Download and install <a href="https://en-za.wordpress.org/download/" target="_blank"> WordPress <a/>
+Download and install WordPress
 
 ```
 sudo wget https://wordpress.org/latest.tar.gz
