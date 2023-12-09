@@ -1,5 +1,5 @@
 ---
-title: Build your own storage server with NextCloud
+title: Build your own storage server with NextCloud 
 date: 2023-10-21
 categories: [cloud]
 tags: [cloud]
