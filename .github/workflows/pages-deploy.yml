@@ -30,20 +30,21 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
+          #node version: '20'
           fetch-depth: 0
-          submodules: true
+          # submodules: true
+          # If using the 'assets' git submodule from Chirpy Starter, uncomment above
+          # (See: https://github.com/cotes2020/chirpy-starter/tree/main/assets)
 
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v3
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v3
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
         with:
-          node-version: '20'
-
-      - name: Install dependencies
-        run: npm install
+          ruby-version: 3
+          bundler-cache: true
 
       - name: Build site
         run: bundle exec jekyll b -d "_site${{ steps.pages.outputs.base_path }}"
@@ -57,9 +58,8 @@ jobs:
             \-\-ignore-urls "/^http:\/\/127.0.0.1/,/^http:\/\/0.0.0.0/,/^http:\/\/localhost/"
 
       - name: Upload site artifact
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-pages-artifact@v1
         with:
-          name: site
           path: "_site${{ steps.pages.outputs.base_path }}"
 
   deploy:
@@ -72,3 +72,5 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2
+        #id: deployment
+    
