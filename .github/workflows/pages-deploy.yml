@@ -29,8 +29,10 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-        with:
-          node version: '20'
+        runs:
+          using: 'node20'
+          main: 'main.js'
+
           fetch-depth: 0
           # submodules: true
           # If using the 'assets' git submodule from Chirpy Starter, uncomment above
@@ -39,8 +41,9 @@ jobs:
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v3
-        with:
-          node version: '20'
+        runs:
+          using: 'node20'
+          main: 'main.js'
 
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
