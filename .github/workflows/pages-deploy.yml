@@ -30,7 +30,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          using: 'node20'
+          'node20'
           fetch-depth: 0
           # submodules: true
           # If using the 'assets' git submodule from Chirpy Starter, uncomment above
@@ -40,7 +40,7 @@ jobs:
         id: pages
         uses: actions/configure-pages@v3
         with:
-          using: 'node20'
+          'node20'
           fetch-depth: 0
 
       - name: Setup Ruby
