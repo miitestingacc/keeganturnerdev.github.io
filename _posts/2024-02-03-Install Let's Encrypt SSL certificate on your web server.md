@@ -79,6 +79,9 @@ Create a symlink for Certbot to run
 sudo ln -s /opt/certbot/bin/certbot /usr/bin/certbot
 ```
 
+NOTE - If your web server is locked down to your private network, 
+remember to temporarily open up HTTP and HTTPS access for all 
+IP addresses to allow Let's Encrypt to access the server to complete the installation
 
 Create the Certificate 
 
@@ -96,4 +99,4 @@ Create SSL certs for a specified domain
 sudo certbot --apache -d example.com -d www.example.com
 ```
 
-![sites-available](/assets/SSL success.jpg)
+![sites-available](/assets/sslsuccess.jpg)
