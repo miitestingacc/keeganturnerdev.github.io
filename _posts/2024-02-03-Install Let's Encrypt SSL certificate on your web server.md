@@ -15,6 +15,8 @@ launch your terminal/command line and update your operating system repositories.
 NOTE - Let's Encrypt Certbot requires a fully qualified domain name to be pointed to your web server address. 
 Ensure that the DNS for your domain name is pointed to the server IP address on your domain host provider of choice.
 
+<a href="https://xneelo.co.za/help-centre/domains/how-do-i-manage-my-dns-records/" target="_blank">How to manage a domain’s DNS records </a>
+
 Step 1 - Updating the repositories 
 
 ```
@@ -110,3 +112,11 @@ sudo certbot --apache -d example.com -d www.example.com
 ```
 
 ![sites-available](/assets/sslsuccess.jpg)
+
+Congratulations! You have installed your Free Let's Encrypt SSL certificate and secured connections to your web server.
+
+visit the following links for more information about Let's Encrypt and the Certbot
+
+<a href="https://letsencrypt.org/getting-started/" target="_blank">Let's Encrypt </a>
+
+<a href="https://certbot.eff.org/" target="_blank">CertBot </a>
