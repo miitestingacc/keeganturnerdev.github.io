@@ -18,7 +18,7 @@ Ensure that the DNS for your domain name is pointed to the server IP address on 
 sudo apt update && sudo apt upgrade -y
 ```
 
-Configure the domain name in the Apache default configuration file \
+Configure the domain name in the Apache default configuration file 
 
 ```
 sudo nano /etc/apache2/sites-available/000-default.conf
