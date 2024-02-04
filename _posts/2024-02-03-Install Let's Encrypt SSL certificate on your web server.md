@@ -24,7 +24,10 @@ Configure the domain name in the Apache default configuration file
 sudo nano /etc/apache2/sites-available/000-default.conf
 ```
 
-Uncomment 'ServerName' and enter your domain name. Add 'ServerAlias' one line below and add your domain name with the 'www' prefix. 
+Uncomment 'ServerName' and enter your domain name. 
+Add 'ServerAlias' one line below and add your domain name with the 'www' prefix. 
+
+![sites-available](/assets/Apache.jpg)
 
 Save and exit the file. You can now restart Apache 
 
@@ -32,7 +35,7 @@ Save and exit the file. You can now restart Apache
 sudo service apache 12 reload
 ```
 
-Chech if the Apache web server is runnning
+Check if the Apache web server is running
 
 ```
 sudo systemctl status apache2.service
