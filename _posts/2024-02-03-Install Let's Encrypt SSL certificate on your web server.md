@@ -32,9 +32,11 @@ Add 'ServerAlias' one line below and add your domain name with the 'www' prefix.
 
 Save and exit the file. You can now restart Apache 
 
+
 ```
-sudo service apache 12 reload
+sudo service apache2 reload
 ```
+
 
 Check if the Apache web server is running
 
@@ -42,13 +44,16 @@ Check if the Apache web server is running
 sudo systemctl status apache2.service
 ```
 
+
 Install Certbot 
+
 
 Step 1 Install Certbot using PIP
 
 ```
 sudo apt install python3 python3-venv libaugeas0
 ```
+
 
 Step 2 Set up a virtual environment
 
@@ -60,12 +65,13 @@ sudo python3 -m venv /opt/certbot/
 sudo /opt/certbot/bin/pip install --upgrade pip
 ```
 
-Step 3 Install Certbot
 
+Step 3 Install Certbot
 
 ```
 sudo /opt/certbot/bin/pip install certbot certbot-apache
 ```
+
 
 Create a symlink for Certbot to run 
 
@@ -73,11 +79,13 @@ Create a symlink for Certbot to run
 sudo ln -s /opt/certbot/bin/certbot /usr/bin/certbot
 ```
 
+
 Create the Certificate 
 
 ```
 sudo certbot --apache
 ```
+
 
 Create SSL certs for a specified domain
 
