@@ -1,24 +1,30 @@
 ---
-title: Install Let's Encrypt SSL certificate on your web server
+title: Enable Let's Encrypt SSL certificate on your Linux web server
 date: 2024-02-03
 categories: [cloud]
 tags: [cloud]
-image: /assets/certbot.png
+image: /assets/cert.webp
 ---
 
-Lets Encrypt provides free SSL certificates to secure your web applications over HTTPS. 
+Lets Encrypt provides free SSL certificates to secure your web applications over HTTPS. The Certbot is a free and open-source program, 
+which allows you to secure connections to your web server.
 
 To install a Lets Encrypt Free SSL Certificate on your web server,
-launch your terminal and update your operating system repositories.
+launch your terminal/command line and update your operating system repositories.
 
 NOTE - Let's Encrypt Certbot requires a fully qualified domain name to be pointed to your web server address. 
 Ensure that the DNS for your domain name is pointed to the server IP address on your domain host provider of choice.
+
+Step 1 - Updating the repositories 
 
 ```
 sudo apt update && sudo apt upgrade -y
 ```
 
-Configure the domain name in the Apache default configuration file 
+Next, we need to configure the domain name in the Apache default configuration file. 
+This is a configuration file for the default virtual host in the Apache web server. 
+In Apache, virtual hosts allow you to host multiple websites on a single server, 
+and the default virtual host is used when no other virtual hosts match the incoming request.
 
 ```
 sudo nano /etc/apache2/sites-available/000-default.conf
@@ -50,12 +56,16 @@ Install Certbot
 
 Step 1 Install Certbot using PIP
 
+This command installs Python 3, the "venv" module for creating Python virtual environments
+
 ```
 sudo apt install python3 python3-venv libaugeas0
 ```
 
 
 Step 2 Set up a virtual environment
+
+We now create a Python virtual environment named "certbot" in the /opt/certbot/ directory using the "venv" module.
 
 ```
 sudo python3 -m venv /opt/certbot/
