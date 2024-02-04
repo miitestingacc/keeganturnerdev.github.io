@@ -6,4 +6,9 @@ tags: [cloud]
 image: /assets/certbot.png
 ---
 
-Lets Encrypt
+Lets Encrypt provides free SSL certificates to secure your web applications over HTTPS. 
+
+To install a Lets Encrypt Free SSL Certificate on your web server
+launch your terminal and update your operating system repositories
+
+
