@@ -86,6 +86,9 @@ Create the Certificate
 sudo certbot --apache
 ```
 
+![sites-available](/assets/https.jpg)
+
+or manually specify the domain names you require SSL certificates for
 
 Create SSL certs for a specified domain
 
@@ -93,4 +96,4 @@ Create SSL certs for a specified domain
 sudo certbot --apache -d example.com -d www.example.com
 ```
 
-
+![sites-available](/assets/SSL success.jpg)
