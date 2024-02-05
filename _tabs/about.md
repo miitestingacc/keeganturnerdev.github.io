@@ -9,12 +9,12 @@ order: 4
 
 Hello 👋
 
-My name is Keegan Turner. 
+My name is Keegan 
 
-I am a technical support consultant for one of the largest web hosting companies in South Africa 🇿🇦
-When I am not troubleshooting web apps or learning something new, I am spending time with my wife and two kids. 
-I have an interest in learning cloud computing and programming. 
-For fun, I like to spin up virtual machines and build or break whatever I can. 
+I am a technical support consultant for a web hosting company in South Africa 🇿🇦
+When I am not troubleshooting web applications or learning something new, I am spending time with my wife and two kids. 
+I have an interest in learning cloud computing and DevOps. 
+For fun, I like to spin up virtual machines and build or break whatever I can.
 My first project will be to document and share my learning journey to hopefully inspire others 😃
 
-Cheers 😃💻
+Take Care and keep learning😃
