@@ -95,6 +95,8 @@ NOTE - If your web server is locked down to your private network,
 remember to temporarily open up HTTP and HTTPS access for all 
 IP addresses to allow Let's Encrypt to access the server to complete the installation
 
+<a href="https://xneelo.co.za/help-centre/cloud/add-a-rule-to-a-security-group/" target="_blank">How to add a rule to a Cloud Security Group </a>
+
 Create the Certificate 
 
 ```
