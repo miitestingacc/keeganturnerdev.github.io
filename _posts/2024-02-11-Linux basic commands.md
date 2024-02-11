@@ -6,6 +6,9 @@ tags: [linux]
 image: /assets/linux.jpg
 ---
 
+The following is a list of some of the regular Linux commands I use every day. 
+There are many more commands you can use in the Linux environment and I will continue to update this list. 
+
 ```
 pwd
 ```
