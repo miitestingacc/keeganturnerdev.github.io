@@ -16,7 +16,7 @@ Step 1
 Update repositories
 
 ```
-sudo apt update
+sudo apt update -y
 ```
 
 ```
